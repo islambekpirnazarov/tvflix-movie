@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsla(250, 6%, 20%, 1);
+    border-radius: 8px;
+}
+
+.scroll-hidden::-webkit-scrollbar, .scroll-hidden::-webkit-scrollbar-thumb{
+    width: 0;
+    background: transparent;
+}
