@@ -3,7 +3,6 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import MainLayout from './layouts/MainLayout'
 import Home from './pages/Home'
 import Categories from './pages/Categories'
-import TvShows from './pages/TvShows'
 import Favourite from './pages/Favourite'
 import Search from './pages/Search'
 import MovieDetails from './pages/MovieDetails'
@@ -14,7 +13,6 @@ const App = () => {
       <Route index element={<Home/>}/>
       <Route path='/search' element={<Search/>}/>
       <Route path='/categories' element={<Categories/>}/>
-      <Route path='/tv-shows' element={<TvShows/>}/>
       <Route path='/favourite' element={<Favourite/>}/>
       <Route path='movie-details/:id' element={<MovieDetails/>}/>
     </Route>
